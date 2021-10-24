@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TiTaTo</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="code.js"></script>
+</head>
+<body>
+    <h1>TIK TAK TOE</h1>
+    <div id="spieler">Player X it´s your turn</div>
+    <div class="field" id="field">
+    <div class="row" id="row1">
+        <div onclick="handleClick(0)" class="colum" id="colum0"></div>
+        <div onclick="handleClick(1)" class="colum" id="colum1"></div>
+        <div onclick="handleClick(2)" class="colum" id="colum2"></div>
+    </div>
+    <div class="row" id="row2">
+        <div onclick="handleClick(3)" class="colum" id="colum3"></div>
+        <div onclick="handleClick(4)" class="colum" id="colum4"></div>
+        <div onclick="handleClick(5)" class="colum" id="colum5"></div>
+    </div>
+    <div class="row" id="row3">
+        <div onclick="handleClick(6)" class="colum" id="colum6"></div>
+        <div onclick="handleClick(7)" class="colum" id="colum7"></div>
+        <div onclick="handleClick(8)" class="colum" id="colum8"></div>
+    </div>
+    </div><br>
+    <button onclick="handleReturn(1)">1</button>
+    <button onclick="handleReturn(2)">2</button>
+    <button onclick="handleReturn(3)">3</button>
+    <button onclick="handleReturn(4)">4</button>
+    <button onclick="handleReturn(5)">5</button>
+    <button onclick="handleReturn(6)">6</button>
+    <button onclick="handleReturn(7)">7</button>
+    <button onclick="handleReturn(8)">8</button>
+    <button onclick="handleReturn(9)">9</button>
+</body>
+</html>
